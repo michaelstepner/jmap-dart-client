@@ -10,7 +10,7 @@ dependencies:
   build_runner: 2.4.11
   built_collection: 5.1.1
   dartz: 0.10.1
-  dio: 5.0.0
+  dio: 5.5.0+1
   equatable: 2.0.5
   http_parser: 4.1.0
   json_annotation: 4.9.0
@@ -19,7 +19,7 @@ dependencies:
   test: 1.25.8
 
 dev_dependencies:
-  http_mock_adapter: 0.4.4
+  http_mock_adapter: 0.6.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

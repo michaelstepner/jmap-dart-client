@@ -18,7 +18,8 @@ void main() {
     test('set identity method and response parsing', () async {
       final baseOption = BaseOptions(method: 'POST');
       final dio = Dio(baseOption)..options.baseUrl = 'http://domain.com/jmap';
-      final dioAdapter = DioAdapter(dio: dio);
+      final dioAdapter =
+          DioAdapter(dio: dio, matcher: const UrlRequestMatcher());
       dioAdapter.onPost(
           '',
           (server) => server.reply(200, {
